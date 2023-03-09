@@ -14,7 +14,7 @@ header h2{
 /* Nav */
 nav ul{
     display: flex;
-    background-color: black;
+    background-color: #333;
     margin-top: -25px;
 }
 nav li{
@@ -33,13 +33,15 @@ nav a{
 nav a:hover{
     background-color: green;
 }
-
+.main{
+    display: flex;
+}
 /* Section */
 section{
-    margin-top: -16px;
+    margin-top: -30px;
     padding: 0px 20px 0px 20px;
-    width: 65%;
-    float: left;
+    width: 69%;
+    /* float: left; */
     /* border: 2px solid black; */
 }
 
@@ -48,19 +50,19 @@ section h1{
     margin-bottom: -10px;
     color: #004368;
 }
-
+/* 
 section p .first{
     margin-top: -100px;
     padding-top: -100px;
 
-}
+} */
 
 /* Aside */
 aside{
-    width: 25.75%;
-    float: left;
+    width: 30%;
+    /* float: left; */
     /* border: 2px solid black;  */
-    padding: 30px;
+    padding: 0px 30px;
     padding-bottom: 292px;
     background-color: #e0e0e0;
     margin-top: -16px;
@@ -68,6 +70,7 @@ aside{
  aside h4{
     color: #004368;
     font-size: 20px;
+    margin-top: 20px;
  }
  aside p{
     margin-top: -20px;
